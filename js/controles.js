@@ -23,8 +23,8 @@ function makeNormal() {
 }
 
 function next() {
+    count++;
     source.src = "assets/" + videos[count];
     video.load();
-    count++;
     if(count >= videos.length) count=0;
 }
