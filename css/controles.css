@@ -4,18 +4,18 @@
 }
 
 
-.container{
+.contenedor{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.container div video {
+.contenedor div video {
     max-width: 1000px;
     min-width: 100px;
 }
-.container div > #videoPlayer > source{
+.contenedor div > #videoPlayer > source{
     width: 100%;
 }
 .container-controls button{
